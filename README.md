@@ -1,2 +1,2 @@
-# c-schoolwork
+# assignment
 These are some school assignment
