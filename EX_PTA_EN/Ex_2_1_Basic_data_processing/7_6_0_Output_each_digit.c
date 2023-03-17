@@ -2,10 +2,10 @@
 int main()
 {
     int amount,a,b,c;
-    scanf("%d",&amount);//è¾“å…¥ä¸‰ä½æ•°
-    a=amount/100;//ç™¾ä½
-    b=(amount/10)%10;//åä½
-    c=amount%10;//ä¸ªä½
+    scanf("%d",&amount);//ÊäÈëÈıÎ»Êı
+    a=amount/100;//°ÙÎ»
+    b=(amount/10)%10;//Ê®Î»
+    c=amount%10;//¸öÎ»
     printf("%d,%d,%d",a,b,c);
     return 0;
 
