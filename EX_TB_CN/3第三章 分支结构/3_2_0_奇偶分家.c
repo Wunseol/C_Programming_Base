@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
     printf("Enter %d number :",n);
     for(i=1;i<=n;i++){
-        scanf("%d",number);
+        scanf("%d",&number);
         if(number%2!=0){
             count_odd++;
         }else{
