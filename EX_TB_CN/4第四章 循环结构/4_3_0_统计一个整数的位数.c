@@ -12,7 +12,7 @@ int main()
     do{
         count++;
         t_number/=10;
-    }while(number!=0);
+    }while(t_number!=0);
     printf("It contains %d digits.\n",count);
     return 0;
 }
