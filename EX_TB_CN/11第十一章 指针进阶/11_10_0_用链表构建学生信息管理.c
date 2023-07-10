@@ -61,7 +61,7 @@ struct stud_node *Create_Stu_Doc()
     char name[20];
     int size = sizeof(struct stud_node);
     head = NULL;
-    printf("Input num, name and score(杈撳叆涓変釜0缁撴潫杈撳叆):\n");
+    printf("Input num, name and score(输入三个0结束输入):\n");
     scanf("%d%s%d",&num,name,&score);
     while(num != 0){
         p = (struct stud_node*)malloc(size);
